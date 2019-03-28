@@ -12,7 +12,7 @@ class App extends Component {
     super(props);
     this.state = {
       essay:
-        "Weekly plan to work towards your goal weight (Less than 120 characters) Check navigation links for tips and ideas!",
+        "Write a plan here for week 1 to work towards your goal (Less than 120 characters) Check top links for tips and ideas!",
       firstName: "",
       lastName: "",
       weight: "Weight in kg",

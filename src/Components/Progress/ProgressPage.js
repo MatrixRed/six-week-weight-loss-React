@@ -93,21 +93,23 @@ function ProgressPage(props) {
               className="form-control"
               style={{ margin: "0 auto", width: "auto", marginBottom: "5px" }}
             />
-            <textarea
-              className="form-control"
-              value={p.essay}
-              name="essay"
-              maxLength="120"
-              rows="5"
-              cols="26"
-              style={{
-                resize: "none",
-                margin: "0 auto",
-                width: "80%"
-              }}
-              onChange={props.handleChange}
-              required
-            />
+            {!parsedWeightArray.length > 5 && (
+              <textarea
+                className="form-control"
+                value={p.essay}
+                name="essay"
+                maxLength="120"
+                rows="5"
+                cols="26"
+                style={{
+                  resize: "none",
+                  margin: "0 auto",
+                  width: "80%"
+                }}
+                onChange={props.handleChange}
+                required
+              />
+            )}
             <button
               className="btn btn-info btn-md"
               style={{ marginRight: "10px" }}
