@@ -16,7 +16,7 @@ function Navbar(props) {
         </li>
         <li className="navbar-brand" style={{ marginBottom: margin }}>
           <a
-            href="https://www.foundmyfitness.com/"
+            href="https://blog.myfitnesspal.com/10-simple-and-realistic-ways-to-eat-healthier-in-2019/"
             id="link2"
             className="btn btn-info"
           >
