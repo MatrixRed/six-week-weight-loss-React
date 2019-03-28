@@ -93,7 +93,7 @@ function ProgressPage(props) {
               className="form-control"
               style={{ margin: "0 auto", width: "auto", marginBottom: "5px" }}
             />
-            {!parsedWeightArray.length > 5 && (
+            {parsedWeightArray.length < 6 && (
               <textarea
                 className="form-control"
                 value={p.essay}
