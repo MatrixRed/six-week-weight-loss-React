@@ -53,6 +53,7 @@ function ProgressPage(props) {
           <div>
             <div>
               <h2
+                id="congrats"
                 style={{
                   width: "auto",
                   fontWeight: "bold",

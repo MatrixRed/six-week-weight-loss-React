@@ -129,6 +129,11 @@ div.centerGrid > h2 {
   #graphGrid > .btn-sm {
     margin-bottom: 3px;
   }
+  #congrats {
+    font-size: 1.3em;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 /* laptops and desktops */
