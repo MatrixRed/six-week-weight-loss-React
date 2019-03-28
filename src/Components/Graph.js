@@ -79,7 +79,7 @@ class Graph extends Component {
     let name = localStorage.getItem("name");
     let unit = localStorage.getItem("unit");
     return (
-      <div className="centerGrid">
+      <div className="centerGrid" id="graphGrid">
         <h2
           style={{
             height: "50px",

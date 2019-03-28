@@ -119,6 +119,16 @@ div.centerGrid > h2 {
   div > ul.navbar-nav :nth-child(-n + 2) {
     margin: 0 auto;
   }
+  form.centerItems {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  form#progGrid {
+    border: none !important;
+  }
+  #graphGrid > .btn-sm {
+    margin-bottom: 3px;
+  }
 }
 
 /* laptops and desktops */
