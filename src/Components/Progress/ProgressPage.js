@@ -94,21 +94,27 @@ function ProgressPage(props) {
               style={{ margin: "0 auto", width: "auto", marginBottom: "5px" }}
             />
             {parsedWeightArray.length < 6 && (
-              <textarea
-                className="form-control"
-                value={p.essay}
-                name="essay"
-                maxLength="120"
-                rows="5"
-                cols="26"
-                style={{
-                  resize: "none",
-                  margin: "0 auto",
-                  width: "80%"
-                }}
-                onChange={props.handleChange}
-                required
-              />
+              <React.Fragment>
+                <label htmlFor="textProg">
+                  <span style={{ fontWeight: "bold" }}>Weekly Plan</span>
+                </label>
+                <textarea
+                  className="form-control"
+                  value={p.essay}
+                  name="essay"
+                  maxLength="120"
+                  rows="5"
+                  cols="26"
+                  style={{
+                    resize: "none",
+                    margin: "0 auto",
+                    width: "80%"
+                  }}
+                  onChange={props.handleChange}
+                  id="textProg"
+                  required
+                />
+              </React.Fragment>
             )}
             <button
               className="btn btn-info btn-md"

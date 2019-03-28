@@ -101,7 +101,11 @@ class Graph extends Component {
           height="290px"
           style={{ margin: "0 auto" }}
         />
-        <button onClick={this.props.pageChanger} className="btn btn-info">
+        <button
+          onClick={this.props.pageChanger}
+          className="btn btn-info"
+          style={{ marginBottom: "8px" }}
+        >
           Progress Page
         </button>
         <button
