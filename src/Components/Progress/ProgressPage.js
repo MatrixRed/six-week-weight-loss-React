@@ -51,10 +51,10 @@ function ProgressPage(props) {
       <div className="form-group progGridItem">
         {parsedWeightArray.length > 6 ? (
           <div>
-            <div className="congratulations">
+            <div>
               <h2
                 style={{
-                  width: "80%",
+                  width: "auto",
                   fontWeight: "bold",
                   border: "3px dashed gold",
                   marginTop: "5px"
